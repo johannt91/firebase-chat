@@ -67,9 +67,6 @@ function ChatRoom() {
 
   const [formValue, setFormValue] = useState('');
 
-  // useEffect(()=> {
-  //   autoScroll.current.scrollIntoView({behaviour: "smooth"});
-  // }, [messages])
   const sendMessage = async (e) => {
     e.preventDefault();
   
