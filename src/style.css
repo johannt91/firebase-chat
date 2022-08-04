@@ -40,6 +40,12 @@ main {
     padding: 0.325rem 0;
 }
 
+.received {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.325rem 0;
+}
+
 img {
     border-radius: 50%;
     width: 40px;
@@ -47,7 +53,7 @@ img {
 }
 
 p {
-    margin-right: 1.2rem;
+    margin: 0 0.8rem;
     background: var(--primary-color);
     border-radius: 5px;
     padding: 0.5rem 0.3rem;
@@ -55,7 +61,7 @@ p {
 }
 
 form {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     display: flex;
     align-items: center;
@@ -84,4 +90,8 @@ input[type=text]{
 
 .message-send:active {
     color:#8FE3CF;
+}
+
+span {
+    height: 2rem;
 }
